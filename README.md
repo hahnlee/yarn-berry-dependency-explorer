@@ -1,6 +1,8 @@
 # Yarn2 Dependency Explorer
 yarn2 dependency explorer vscode extension
 
+[VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=hahnlee.yarn2-dependency-explorer&ssr=false)
+
 ![screenshot](https://raw.githubusercontent.com/hahnlee/yarn2-dependency-explorer/main/static/screenshot.png)
 
 # License
