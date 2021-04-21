@@ -37,9 +37,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@types/node", "npm:14.14.41"],
             ["@types/vscode", "npm:1.55.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:4.22.0"],
             ["@typescript-eslint/parser", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:4.22.0"],
+            ["@yarnpkg/fslib", "npm:2.5.0-rc.2"],
+            ["@yarnpkg/libzip", "npm:2.2.1"],
             ["eslint", "npm:7.24.0"],
             ["eslint-config-airbnb-typescript", "npm:12.3.1"],
             ["eslint-import-resolver-node", "npm:0.3.4"],
@@ -137,6 +140,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nodelib/fs.walk", "npm:1.2.6"],
             ["@nodelib/fs.scandir", "npm:2.1.4"],
             ["fastq", "npm:1.11.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/emscripten", [
+        ["npm:1.39.4", {
+          "packageLocation": "./.yarn/cache/@types-emscripten-npm-1.39.4-4d03380faa-b848421e25.zip/node_modules/@types/emscripten/",
+          "packageDependencies": [
+            ["@types/emscripten", "npm:1.39.4"]
           ],
           "linkType": "HARD",
         }]
@@ -653,6 +665,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@xtuc-long-npm-4.2.2-37236e6d72-ec09a359f9.zip/node_modules/@xtuc/long/",
           "packageDependencies": [
             ["@xtuc/long", "npm:4.2.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@yarnpkg/fslib", [
+        ["npm:2.5.0-rc.2", {
+          "packageLocation": "./.yarn/cache/@yarnpkg-fslib-npm-2.5.0-rc.2-9c1a3f9b92-dce861a3cd.zip/node_modules/@yarnpkg/fslib/",
+          "packageDependencies": [
+            ["@yarnpkg/fslib", "npm:2.5.0-rc.2"],
+            ["@yarnpkg/libzip", "npm:2.2.1"],
+            ["tslib", "npm:1.14.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@yarnpkg/libzip", [
+        ["npm:2.2.1", {
+          "packageLocation": "./.yarn/cache/@yarnpkg-libzip-npm-2.2.1-8ad75a808a-75813c2dbe.zip/node_modules/@yarnpkg/libzip/",
+          "packageDependencies": [
+            ["@yarnpkg/libzip", "npm:2.2.1"],
+            ["@types/emscripten", "npm:1.39.4"],
+            ["tslib", "npm:1.14.1"]
           ],
           "linkType": "HARD",
         }]
@@ -3622,9 +3656,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["yarn2-dependency-explorer", "workspace:."],
+            ["@types/node", "npm:14.14.41"],
             ["@types/vscode", "npm:1.55.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:4.22.0"],
             ["@typescript-eslint/parser", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:4.22.0"],
+            ["@yarnpkg/fslib", "npm:2.5.0-rc.2"],
+            ["@yarnpkg/libzip", "npm:2.2.1"],
             ["eslint", "npm:7.24.0"],
             ["eslint-config-airbnb-typescript", "npm:12.3.1"],
             ["eslint-import-resolver-node", "npm:0.3.4"],
