@@ -1,7 +1,7 @@
 # Yarn2 Dependency Explorer
 yarn2 dependency explorer vscode extension
 
-![screenshot](./static/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hahnlee/yarn2-dependency-explorer/main/static/screenshot.png)
 
 # License
 ```
