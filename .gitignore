@@ -86,3 +86,8 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
+### extension ###
+out
+dist
+*.vsix

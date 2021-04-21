@@ -1,7 +1,16 @@
 {
   "name": "yarn2-dependency-explorer",
   "license": "Apache-2.0",
+  "scripts": {
+    "vscode:prepublish": "yarn run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map"
+  },
   "devDependencies": {
-    "typescript": "^4.2.4"
+    "ts-loader": "^9.0.2",
+    "typescript": "^4.2.4",
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0"
   }
 }
