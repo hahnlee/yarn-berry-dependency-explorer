@@ -1,6 +1,31 @@
 {
   "name": "yarn2-dependency-explorer",
   "license": "Apache-2.0",
+  "displayName": "yarn2 dependency explorer",
+  "description": "yarn2 dependency explorer",
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "version": "0.0.1",
+  "main": "./dist/extension.js",
+  "publisher": "hahnlee",
+  "author": {
+    "name": "Han Lee",
+    "email": "hanlee.dev@gmail.com",
+    "url": "https://github.com/hahnlee"
+  },
+  "extensionDependencies": [
+    "arcanis.vscode-zipfs"
+  ],
+  "bugs": {
+    "url": "https://github.com/hahnlee/yarn2-dependency-explorer/issues",
+    "email": "hanlee.dev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hahnlee/yarn2-dependency-explorer.git"
+  },
+  "homepage": "https://github.com/hahnlee/yarn2-dependency-explorer/blob/main/README.md",
   "scripts": {
     "vscode:prepublish": "yarn run package",
     "compile": "webpack",
