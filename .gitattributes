@@ -1,2 +1,2 @@
-/.yarn/** linguist-vendored
-.pnp.js linguist-vendored
+.yarn/** linguist-vendored
+.pnp.cjs linguist-vendored
