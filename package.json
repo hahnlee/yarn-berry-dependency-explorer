@@ -14,6 +14,10 @@
     "email": "hanlee.dev@gmail.com",
     "url": "https://github.com/hahnlee"
   },
+  "icon": "./static/icon.png",
+  "categories": [
+    "Other"
+  ],
   "extensionDependencies": [
     "arcanis.vscode-zipfs"
   ],
