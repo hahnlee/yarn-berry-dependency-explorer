@@ -37,10 +37,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@types/vscode", "npm:1.55.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:4.22.0"],
             ["@typescript-eslint/parser", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:4.22.0"],
             ["eslint", "npm:7.24.0"],
             ["eslint-config-airbnb-typescript", "npm:12.3.1"],
+            ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-plugin-import", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:2.22.1"],
             ["ts-loader", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:9.0.2"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"],
@@ -193,6 +195,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-14.14.41-86b32c9f0d-37dfb63964.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:14.14.41"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/vscode", [
+        ["npm:1.55.0", {
+          "packageLocation": "./.yarn/cache/@types-vscode-npm-1.55.0-ae60bb313e-f233baf3d5.zip/node_modules/@types/vscode/",
+          "packageDependencies": [
+            ["@types/vscode", "npm:1.55.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3611,10 +3622,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["yarn2-dependency-explorer", "workspace:."],
+            ["@types/vscode", "npm:1.55.0"],
             ["@typescript-eslint/eslint-plugin", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:4.22.0"],
             ["@typescript-eslint/parser", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:4.22.0"],
             ["eslint", "npm:7.24.0"],
             ["eslint-config-airbnb-typescript", "npm:12.3.1"],
+            ["eslint-import-resolver-node", "npm:0.3.4"],
             ["eslint-plugin-import", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:2.22.1"],
             ["ts-loader", "virtual:b27f32750741aeeffdc866aba2ee84611791e3323d597ce253de15a926c84779f0b7faa6799e6258cdd70e9b00feb9f03ef060eb9629cd3cb8f9738fa2de5bea#npm:9.0.2"],
             ["typescript", "patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"],

@@ -17,6 +17,19 @@
   "extensionDependencies": [
     "arcanis.vscode-zipfs"
   ],
+  "activationEvents": [
+    "onView:yarn2DependencyExplorer"
+  ],
+  "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "id": "yarn2DependencyExplorer",
+          "name": "yarn2 dependency explorer"
+        }
+      ]
+    }
+  },
   "bugs": {
     "url": "https://github.com/hahnlee/yarn2-dependency-explorer/issues",
     "email": "hanlee.dev@gmail.com"
@@ -34,10 +47,12 @@
     "lint": "eslint ./src"
   },
   "devDependencies": {
+    "@types/vscode": "^1.55.0",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "eslint": "^7.24.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-import-resolver-node": "^0.3.4",
     "eslint-plugin-import": "^2.22.1",
     "ts-loader": "^9.0.2",
     "typescript": "^4.2.4",
