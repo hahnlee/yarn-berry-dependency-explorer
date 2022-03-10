@@ -1,5 +1,5 @@
-# Yarn2 Dependency Explorer
-yarn2 dependency explorer vscode extension
+# Yarn Berry Dependency Explorer
+yarn berry dependency explorer vscode extension
 
 [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=hahnlee.yarn2-dependency-explorer&ssr=false)
 
