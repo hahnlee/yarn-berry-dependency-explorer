@@ -55,8 +55,6 @@
     "@types/vscode": "^1.55.0",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
-    "@yarnpkg/fslib": "^2.5.0-rc.2",
-    "@yarnpkg/libzip": "^2.2.1",
     "eslint": "^7.24.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-import-resolver-node": "^0.3.4",
@@ -66,5 +64,9 @@
     "vsce-yarn-patch": "^1.66.2",
     "webpack": "^5.35.0",
     "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "@yarnpkg/fslib": "^2.6.1",
+    "@yarnpkg/libzip": "^2.2.4"
   }
 }
