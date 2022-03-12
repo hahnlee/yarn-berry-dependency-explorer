@@ -4041,9 +4041,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yarn-berry-dependency-explorer@workspace:.":
+"yarn2-dependency-explorer@workspace:.":
   version: 0.0.0-use.local
-  resolution: "yarn-berry-dependency-explorer@workspace:."
+  resolution: "yarn2-dependency-explorer@workspace:."
   dependencies:
     "@types/node": ^14.14.41
     "@types/vscode": ^1.55.0

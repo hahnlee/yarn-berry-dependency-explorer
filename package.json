@@ -1,12 +1,12 @@
 {
-  "name": "yarn-berry-dependency-explorer",
+  "name": "yarn2-dependency-explorer",
   "license": "Apache-2.0",
   "displayName": "yarn berry dependency explorer",
   "description": "yarn berry dependency explorer",
   "engines": {
     "vscode": "^1.55.0"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/extension.js",
   "publisher": "hahnlee",
   "author": {
