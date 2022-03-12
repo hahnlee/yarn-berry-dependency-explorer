@@ -9,7 +9,18 @@ import zipFS from './zipFS'
 type FileItem = ZipFSItem | NativeFileItem
 
 function getRootItems(projectRoot: string) {
+  const packageJSON = path.join(projectRoot, 'package.json')
+
+  if (!fs.existsSync(packageJSON) || !fs.lstatSync(packageJSON).isFile()) {
+    return []
+  }
+
   const yarnCacheRoot = path.join(projectRoot, '.yarn', 'cache')
+
+  if (!fs.existsSync(yarnCacheRoot)) {
+    // TODO: (@hahnlee) check is workspace
+    return []
+  }
 
   if (!fs.lstatSync(yarnCacheRoot).isDirectory()) {
     return []
