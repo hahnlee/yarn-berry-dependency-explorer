@@ -26,7 +26,7 @@ function getZipFSItems(parent: FileItem) {
   return items.map((item) => new ZipFSItem(Uri.parse(`zip://${dirPath}/${item}`)))
 }
 
-export default class Yarn2DependenciesProvider implements TreeDataProvider<FileItem> {
+export default class YarnBerryDependenciesProvider implements TreeDataProvider<FileItem> {
   constructor(private workspaceRoot: string | undefined) {}
 
   getChildren(element?: FileItem) {

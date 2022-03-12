@@ -1,10 +1,10 @@
 import * as vscode from 'vscode'
-import Yarn2DependenciesProvider from './provider'
+import YarnBerryDependenciesProvider from './provider'
 
 export function activate() {
   vscode.window.registerTreeDataProvider(
-    'yarn2DependencyExplorer',
-    new Yarn2DependenciesProvider(vscode.workspace.rootPath),
+    'yarnBerryDependencyExplorer',
+    new YarnBerryDependenciesProvider(vscode.workspace.rootPath),
   )
 }
 

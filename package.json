@@ -22,14 +22,14 @@
     "arcanis.vscode-zipfs"
   ],
   "activationEvents": [
-    "onView:yarn2DependencyExplorer"
+    "onView:yarnBerryDependencyExplorer"
   ],
   "contributes": {
     "views": {
       "explorer": [
         {
-          "id": "yarn2DependencyExplorer",
-          "name": "yarn2 dependency explorer"
+          "id": "yarnBerryDependencyExplorer",
+          "name": "yarn berry dependency explorer"
         }
       ]
     }
