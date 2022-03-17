@@ -17,7 +17,10 @@ async function getRootItems(projectRoot: string) {
     return []
   }
 
-  const configuration = await Configuration.find(npath.toPortablePath(projectRoot), null)
+  const configuration = await Configuration.find(npath.toPortablePath(projectRoot), null, {
+    strict: false,
+  })
+
   if (!configuration) {
     return []
   }
